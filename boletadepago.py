@@ -14,10 +14,10 @@ class BoletadePago(Trabajador):
         print("\nBoleta de Pago*")
         print("Nombre:..........", self.name)
         print("Categoría:.......", self.categoria)
-        print("Sueldo Básico:.S/", self.Sueldobase)
-        print("Descuento Tardanza:...S/", self.DescuentoT)
-        print("Pagos Horas Extras:.....", self.PagoxHoraxtra)
-        print("Sueldo Neto:....", self.sueldoneto)
+        print("Sueldo Básico:.S/ {:.2f}" .format(self.Sueldobase))
+        print("Descuento Tardanza:...S/ {:.2f}" .format(self.DescuentoT))
+        print("Pagos Horas Extras:.....S/ {:.2f}" .format(self.PagoxHoraxtra))
+        print("Sueldo Neto:....S/ {:.2f}" .format(self.sueldoneto))
 
 
 boleta = BoletadePago(obj.name,obj.categoria,obj.Horaextra,obj.tardanza)
