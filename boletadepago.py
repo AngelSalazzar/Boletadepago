@@ -11,7 +11,7 @@ obj = Trabajador(name, categoria, Horaextra, tardanza)
 
 class BoletadePago(Trabajador):
     def Boleta(self):
-        print("\nBoleta de Pago*")
+        print("\n-------Boleta de Pago-------*")
         print("Nombre:..........", self.name)
         print("Categoría:.......", self.categoria)
         print("Sueldo Básico:.S/ {:.2f}" .format(self.Sueldobase))
